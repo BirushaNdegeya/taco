@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import "./main.css";
+
+
+/* ABOUT */
+
+.about__trivia {
+    margin: var(--MARGIN);
+}
+
+.about__trivia__answer {
+    margin-top: 1em;
+}
+
+/* CONTACT */
+
+
+.contact__h2 {
+    margin: 0;
+}
+
+form {
+    padding: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    width: 90%;
+    border: none;
+    background: rgba(51, 178, 51, 0.75);
+    display: block;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: 0px;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    resize: none;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container-btn {
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    gap: 2rem;
+}
+
+button {
+    padding: 8px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    color: #fff;
+}
+
+button[type="submit"] {
+    background: darkblue;
+}
+
+button[type="reset"] {
+    background: darkred;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+.index-container {
+    min-height: 100vh;
+}

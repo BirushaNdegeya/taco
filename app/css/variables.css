@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@1,6..12&display=swap');
+
+
+/* variables */
+
+:root {
+    /* FONTS */
+
+    --FF: "Nunito Sans", sans-serif;
+    --FF-HEADINGS: "Nunito Sans", cursive;
+    --FS: clamp(1rem, 2.2vh, 1.5rem);
+
+    /* COLORS */
+
+    --BGCOLOR: orange;
+    --BGCOLOR-FADE: rgb(252, 220, 160);
+    --BGIMAGE: linear-gradient(to bottom var(--BGCOLOR), var(--BGCOLOR-FADE));
+    --BODY-BGCOLOR: #fff;
+    --FONT-COLOR: #000;
+    --BORDER-COLOR: #333;
+    --HIGHLIGHT-COLOR: rgb(51, 178, 51);
+    --LINK-COLOR: #000;
+    --LINK-HOVER: hsla(0, 0%, 0%, 0.6);
+    --LINK-ACTIVE: orange;
+
+    --HEADER-BGCOLOR: #000;
+    --HEADER-COLOR: #fff;
+    --NAV-BGCOLOR: #fff;
+
+    --HERO-BGCOLOR: rgba(51, 178, 51, 0.75);
+    --HERO-COLOR: #fff;
+
+
+    /* BORDERS */
+
+    --BORDERS: 1px solid var(--BORDER-COLOR);
+
+    /* STANDARD PADDING */
+
+    --PADDING-TB: 0.25em;
+    --PADDING-SIDE: 2.5%;
+
+    /* STANDARD MARGIN */
+
+    --MARGIN: clamp(1em, 2.5vh, 1.5em);
+}
+
+
+
+
+/* UTILITY CLASSES */
+
+.offscreen {
+    position: absolute;
+    left: -3000px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.center {
+    text-align: center;
+}

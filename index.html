@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app/css/style.css">
+    <title>Little Taco Shop</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-h1">Little Taco Shop</h1>
+        <nav class="header-nav">
+            <ul class="header-ul">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./hours.html">Menu</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2 class="hero-h2">Bienvenidos!</h2>
+        <figure>
+            <img src="app/images/tacos_and_drink_1000x667.png" title="It is five o'clock somewhere" alt="Tacos and a Drink" width="1000" height="667">
+            <figcaption class="offscreen">A Tray of Tasty Tacos</figcaption>
+        </figure>
+    </section>
+    
+    <main class="main">
+        <h2>Our Menu</h2>
+        <article class="main__article">
+            <div class="index-container">
+                 <div class="menu-container">
+                    <table>
+                        <caption>Our Tacos</caption>
+                        <thead>
+                            <tr>
+                                <th>Tacos</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" rowspan="3">Crunchy</th>
+                                <td>1</td>
+                                <td>$1.50</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>$3.25</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="menu-item menu-sf">Soft</div>
+                    <div class="menu-item">1</div>
+                    <div class="menu-item">$1.50</div>
+
+                    <div class="menu-item">2</div>
+                    <div class="menu-item">$2.50</div>
+
+                    <div class="menu-item menu-cs">Chips &amp; Salsa $2</div>
+                 </div>
+            </div>
+        </article>
+    </main>
+    <footer class="footer">
+	    <p>Copyright &copy; <span id="year"></span>Little Taco Shop</p>
+    </footer>
+    <script src="./app/js/script.js"></script>
+</body>
+</html>

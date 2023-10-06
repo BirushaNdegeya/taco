@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app/css/style.css">
+    <meta name="description" content="About the little taco Shop">
+    <meta name="author" content="Birusha ndegeya">
+    <title>Little Taco Shop</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-h1">Little Taco Shop</h1>
+        <nav class="header-nav">
+            <ul class="header-ul">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./hours.html">Menu</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <figure>
+            <img src="app/images/tacos_tray_1000x667.png" title="It is five o'clock somewhere" alt="A tray of Tasty Tacos" width="1000" height="667">
+            <figcaption class="offscreen">A Tray of Tasty Tacos</figcaption>
+        </figure>
+    </section>
+    <main>
+        <article class="main__article contact">
+            <h2 class="contact__h2">Our Location</h2>
+            <address>
+                555 Taco Temptation Law, Switie T <br>
+                Goma town <a href="tel:+243971616131">0971616131</a>
+            </address>
+
+            <h2 class="contact__h2">Our Contact Form</h2>
+
+            <form action="index.html" method="post" class="contact__form">
+                <fieldset class="contact__fieldset">
+                    <legend class="offscreen">Send Us a Message</legend>
+                    <input class="contact__input" type="text" name="userName" id="userName" placeholder="Name" required="required">
+
+                    <input class="contact__input" type="email" name="userEmail" id="userEmail" placeholder="Email" required="required">
+
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here" class="contact__textarea" required="required"></textarea>
+                </fieldset>
+                <div class="container-btn">
+                    <button type="submit">SUBMIT</button>
+                    <button type="reset">RESET</button>
+                </div>
+            </form>
+        </article>
+    </main>
+    <footer class="footer">
+        <p>Copyright &copy; <span id="year"></span>Little Taco Shop</p>
+    </footer>
+    <script src="./app/js/script.js"></script>
+</body>
+</html>
